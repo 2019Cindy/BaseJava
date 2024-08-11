@@ -16,6 +16,7 @@
         <module>TestAnnotation</module>
         <module>TestEnum</module>
         <module>TestReflect</module>
+        <module>TestServlet</module>
     </modules>
     <!-- 这里一般有 maven 的默认配置，修改即可 -->
     <properties>
