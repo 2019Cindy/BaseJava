@@ -11,9 +11,12 @@
     <title>method</title>
 </head>
 <body>
-    <form action="method" method="post">
+    <form action="response" method="post">
         用户名：<input type="text" name="username"><br>
         密码：<input type="password" name="pwd"><br>
+        爱好：<input type="checkbox" name="fun" value="1">吃饭
+        <input type="checkbox" name="fun" value="2">睡觉
+        <input type="checkbox" name="fun" value="3">打豆豆
         <input type="submit" value="登录">
     </form>
 </body>
