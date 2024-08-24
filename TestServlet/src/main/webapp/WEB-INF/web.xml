@@ -235,4 +235,22 @@
         <servlet-name>numContext</servlet-name>
         <url-pattern>/num</url-pattern>
     </servlet-mapping>
+
+    <!--  configServlet  -->
+    <servlet>
+        <servlet-name>config</servlet-name>
+        <servlet-class>com.yy.servletContext.ConfigServlet</servlet-class>
+        <init-param>
+            <param-name>china</param-name>
+            <param-value>beijing</param-value>
+        </init-param>
+        <init-param>
+            <param-name>hubei</param-name>
+            <param-value>wuhan</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>config</servlet-name>
+        <url-pattern>/config</url-pattern>
+    </servlet-mapping>
 </web-app>
