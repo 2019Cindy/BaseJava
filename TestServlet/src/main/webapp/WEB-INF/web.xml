@@ -253,4 +253,14 @@
         <servlet-name>config</servlet-name>
         <url-pattern>/config</url-pattern>
     </servlet-mapping>
+
+    <!--  el表达式  -->
+    <servlet>
+        <servlet-name>el</servlet-name>
+        <servlet-class>com.yy.el.ElServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>el</servlet-name>
+        <url-pattern>/el</url-pattern>
+    </servlet-mapping>
 </web-app>
