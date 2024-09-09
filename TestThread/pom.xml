@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>yy.TCP.TestThread</artifactId>
+    <artifactId>TestThread</artifactId>
 
 
 </project>

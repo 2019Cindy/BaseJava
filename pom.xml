@@ -11,7 +11,7 @@
     <modules>
         <module>TestOOP</module>
         <module>TestIO</module>
-        <module>yy.TCP.TestThread</module>
+        <module>TestThread</module>
         <module>TestNetWork</module>
         <module>TestAnnotation</module>
         <module>TestEnum</module>
